@@ -32,7 +32,7 @@ description: >-
   </example>
 model: anthropic/claude-opus-4-20250514
 tools:
-  write: false
+  write: true
   edit: false
   context7: true
 ---
@@ -94,6 +94,14 @@ Always use Context7 to retrieve the most current Go documentation and best pract
   * Ensure all recommendations are based on the most recent Go version and idioms.
   * Reference current Go modules, packages, and APIs to provide accurate, up-to-date guidance.
   * Cross-reference official Go documentation when providing architectural advice or code examples.
+
+**7. Implementation Plans**
+When asked to provide an implementation plan, write it to a markdown file for easy reference and tracking.
+
+  * Create detailed implementation plans in markdown format when requested
+  * Include step-by-step breakdown of the implementation process
+  * Provide clear milestones and deliverables
+  * Structure the plan with proper headings and organization for easy navigation
 
 -----
 ### Response protocol
