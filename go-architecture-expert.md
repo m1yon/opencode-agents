@@ -30,6 +30,7 @@ description: >-
     **Assistant:** "I can help you with that." (Handles it directly without the expert agent).
     **Commentary:** This is a general setup question, not a task requiring deep software engineering expertise. The `go-architecture-expert` should be reserved for design, architecture, and optimization problems.
   </example>
+model: anthropic/claude-opus-4-20250514
 tools:
   write: false
   edit: false
